@@ -12,6 +12,8 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import javax.swing.JOptionPane;
 
+
+//SE logro guardar en el control de versiones
 /**
  *
  * @author ColsutecR
@@ -21,7 +23,9 @@ public class ActualizarDB {
     public static void main(String[] args) throws SQLException {
 
         java.sql.Connection conexion = null;
+        
         Statement sentencia = null;
+        
         ResultSet rs = null;
         //Mysql
         try {
